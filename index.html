@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Weather App</h1>
+
+        <form>
+            <input type="text" id="city-input" placeholder="Enter City" autocomplete="off">
+           <input type="submit" value="Get Weather">
+        </form>
+
+        <div id="weather-data" class="">
+            <div class="icon">
+                <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+            </div>
+            
+            <div class="temperature"></div>
+            <div class="description"></div>
+
+            <div class="forecast-slide" id="slideshow-container">
+                <div class="forecast-hour"></div>
+                <button id="prevButton"></button>
+                <button id="nextButton"></button>
+            </div>
+            
+
+            <div class="details">
+                <!-- <div>Feels like: </div>
+                <div>Humidity: </div>
+                <div>Wind speed: </div> -->
+            </div>
+
+            <div class="forecast-container">
+                <div class="forecast-1">
+                    <div class="forecastIcon-1">
+                        
+                    </div>
+                    <div class="forecastTemperature-1"></div>
+                    <div class="forecastDay-1"></div>
+                </div>
+                <div class="forecast-2">
+                    <div class="forecastIcon-2">
+                     
+                    </div>
+                    <div class="forecastTemperature-2"></div>
+                    <div class="forecastDay-2"></div>
+                </div>
+                <div class="forecast-3">
+                    <div class="forecastIcon-3">
+                        
+                    </div>
+                    <div class="forecastTemperature-3"></div>
+                    <div class="forecastDay-3"></div>
+                </div>
+                <div class="forecast-4">
+                    <div class="forecastIcon-4">
+                       
+                    </div>
+                    <div class="forecastTemperature-4"></div>
+                    <div class="forecastDay-4"></div>
+                </div>
+                <div class="forecast-5">
+                    <div class="forecastIcon-5">
+                       
+                    </div>
+                    <div class="forecastTemperature-5"></div>
+                    <div class="forecastDay-5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

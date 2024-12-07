@@ -2,6 +2,10 @@
 
 WeatherApp is a simple web application that provides current weather information based on user-provided location data. It utilizes the OpenWeather API to fetch weather data for the specified location.
 
+## Live Demo
+
+Visit the live website hosted on Netlify: [WeatherApp Live](https://658df23e3f298235f2388a31--spiffy-kitsune-8c0da5.netlify.app/)
+
 ## Features
 
 - Get current weather information including temperature, humidity, wind speed, and weather conditions.
